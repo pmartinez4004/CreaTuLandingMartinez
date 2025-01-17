@@ -1,13 +1,9 @@
-export default function ButtonComponent({texto, color}){
+import'./ButtonComponent.css'
 
-    const misEstilos={
-        backgroundColor: color,
-        margin: 10,
-        border: "2px solid gray"
-    }
+export default function ButtonComponent({texto}){
     return(
         <>
-       <button style= {misEstilos}>{texto}</button>
+       <button className='botones'>{texto}</button>
         </>
     )
 }

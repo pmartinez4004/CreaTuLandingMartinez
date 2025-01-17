@@ -11,9 +11,9 @@ export default function NavBar() {
             </div>
 
             <nav className='ButttonComponents'>
-                <ButtonComponent texto='Electricidad' color="lightgray" />
-                <ButtonComponent texto='Iluminación' color="lightgray" />
-                <ButtonComponent texto='Accesorios' color="lightgray" />
+                <ButtonComponent texto='Electricidad' />
+                <ButtonComponent texto='Iluminación' />
+                <ButtonComponent texto='Accesorios'  />
             </nav>
 
             <div className='CartWidget'>
